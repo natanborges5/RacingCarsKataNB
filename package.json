@@ -1,0 +1,24 @@
+{
+  "name": "emilybache-racing-car-kata",
+  "description": "A kata to practice SOLID patterns",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/chai": "4.1.4",
+    "@types/mocha": "5.2.5",
+    "@types/node": "10.11.2",
+    "@types/sinon": "^17.0.2",
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "sinon": "3.2.1",
+    "ts-node": "7.0.1",
+    "tslint": "5.8.0",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register tire-pressure-monitoring-system-tests/*-test.ts text-converter-tests/*-test.ts turn-ticket-dispenser-tests/*-test.ts telemetry-system-tests/*-test.ts",
+    "test2": "vitest",
+    "lint": "tslint --project ."
+  }
+}
